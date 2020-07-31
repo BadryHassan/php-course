@@ -19,6 +19,10 @@
     echo "<h1>Welcome to ".$name."!</h1>";
     echo "<h2>You Have $".$credit." in your wallet </h2>";
     echo "<p>A Car cost $".$products['Car']."</p>";
+        //******Listing all products*******
+    foreach ($products as $key => $value) {
+      echo "<p>The ".$key." costs ".$value." </p>";
+    }
 
     ?>
   </body>
