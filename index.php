@@ -31,6 +31,12 @@
       }
     }
 
+    //***** Calculate Tax*****
+    $amount= 800;
+    $tax= 0.0825;
+    $addedTax= $amount*$tax;
+    echo $addedTax;
+
     ?>
   </body>
 </html>
